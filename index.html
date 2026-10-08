@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velvetag — Digital + Creative Studio</title>
+  <meta name="description" content="Velvetag is a digital and creative studio building thoughtful digital experiences and refined visual communication." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Animated aurora background -->
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob a1"></span>
+    <span class="aurora-blob a2"></span>
+    <span class="aurora-blob a3"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <img class="brand-image" src="images/55b9ab339a1141328e7f1bab51a9c937.png" alt="Velvetag" />
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-sm">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow reveal" data-reveal>Digital + Creative Studio</p>
+        <h1 class="hero-title">
+          <span class="line reveal" data-reveal>Digital precision,</span>
+          <span class="line reveal accent" data-reveal data-delay="80">with a softer touch.</span>
+        </h1>
+        <p class="hero-sub reveal" data-reveal data-delay="160">Thoughtful digital experiences and refined visual communication.</p>
+        <p class="hero-lead reveal" data-reveal data-delay="320">
+          Velvetag brings technology and visual craft together, with practical
+          digital work and considered design for businesses and projects.
+        </p>
+        <div class="hero-actions reveal" data-reveal data-delay="400">
+          <a href="#contact" class="btn btn-glow">Start a project</a>
+          <a href="#services" class="btn btn-ghost">Explore services</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Velvetag purple two-part symbol" data-tilt>
+        <div class="hero-grid-lines" aria-hidden="true"></div>
+        <img class="hero-symbol" src="images/WhatsApp Image 2026-09-11 at 9.47.52 AM.jpeg" alt="" />
+        <span class="symbol-label label-soft">SOFT</span>
+        <span class="symbol-label label-tag">TAG</span>
+        <span class="symbol-label label-velvet">VELVET</span>
+        <span class="symbol-label label-precision">PRECISION</span>
+      </div>
+    </div>
+    <p class="harmony marquee-wrap">
+      <span class="marquee">Digital thinking&nbsp;·&nbsp;Creative craft&nbsp;·&nbsp;Built with intention&nbsp;·&nbsp;Digital thinking&nbsp;·&nbsp;Creative craft&nbsp;·&nbsp;</span>
+      <span class="marquee" aria-hidden="true">Digital thinking&nbsp;·&nbsp;Creative craft&nbsp;·&nbsp;Built with intention&nbsp;·&nbsp;Digital thinking&nbsp;·&nbsp;Creative craft&nbsp;·&nbsp;</span>
+    </p>
+  </section>
+
+  <!-- Disciplines -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat reveal" data-reveal>
+        <span class="stat-num">OPUS</span>
+        <span class="stat-label">Digital / Technology</span>
+        <small>Websites · Software · Digital Projects</small>
+      </div>
+      <div class="stat reveal" data-reveal data-delay="100">
+        <span class="stat-num">ŒUVRE</span>
+        <span class="stat-label">Design / Creative</span>
+        <small>Branding · Print · Visual Communication</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="section-eyebrow reveal" data-reveal>Our disciplines</p>
+      <h2 class="section-title reveal" data-reveal data-delay="80">Two ways of making.</h2>
+      <div class="cards">
+        <article class="card reveal" data-reveal data-delay="80">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>OPUS <span class="accent">/ Digital &amp; Technology</span></h3>
+          <ul>
+            <li>Website Development</li>
+            <li>Landing Pages</li>
+            <li>Web Applications</li>
+            <li>UI/UX Design</li>
+            <li>Automation &amp; Integrations</li>
+            <li>Custom Software</li>
+          </ul>
+        </article>
+
+        <article class="card reveal" data-reveal data-delay="180">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21s2-6 9-9c0 0-1-5 3-8 0 4 3 3 3 7 0 0 3 1 3 5-5 0-8 4-8 4"/><path d="M3 21c3 0 5-1 6-3"/></svg>
+          </div>
+          <h3>ŒUVRE <span class="accent">/ Design &amp; Creative</span></h3>
+          <ul>
+            <li>Logo Design</li>
+            <li>Brand Identity</li>
+            <li>Posters &amp; Flyers</li>
+            <li>Brochures &amp; Print</li>
+            <li>Social Media Creatives</li>
+            <li>Visual Communication</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approach -->
+  <section class="section section-alt" id="approach">
+    <div class="container approach-grid">
+      <div class="reveal" data-reveal>
+        <p class="section-eyebrow">Our Approach</p>
+        <h2 class="section-title">
+          Understand.<br />Shape.<br /><span class="accent">Build. Refine.</span>
+        </h2>
+        <p class="section-lead">
+          We start with the real objective, give it a clear form, then build
+          and polish the solution with care.
+        </p>
+      </div>
+      <ol class="steps">
+        <li class="reveal" data-reveal data-delay="80">
+          <span class="step-num">01</span>
+          <div>
+            <h4>Understand</h4>
+            <p>Your goals, audience and vision.</p>
+          </div>
+        </li>
+        <li class="reveal" data-reveal data-delay="180">
+          <span class="step-num">02</span>
+          <div>
+            <h4>Shape</h4>
+              <p>Turn the requirement into a clear concept and direction.</p>
+          </div>
+        </li>
+        <li class="reveal" data-reveal data-delay="280">
+          <span class="step-num">03</span>
+          <div>
+            <h4>Build</h4>
+              <p>Develop the digital or creative solution.</p>
+          </li>
+          <li class="reveal" data-reveal data-delay="360">
+            <span class="step-num">04</span>
+            <div>
+              <h4>Refine</h4>
+              <p>Review, improve and polish the final work.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="reveal" data-reveal>
+        <p class="section-eyebrow">About Velvetag</p>
+        <h2 class="section-title">A creative <span class="accent">technology</span> studio.</h2>
+        <p class="section-lead">
+          Velvetag is a digital and creative studio combining technology with
+          visual craft. Through OPUS we build practical digital experiences;
+          through ŒUVRE we create identities, print materials and visual
+          communication.
+        </p>
+      </div>
+      <div class="about-pullquote reveal" data-reveal data-delay="120" data-tilt>
+        <p>Soft ideas.</p>
+        <p>Structured thinking.</p>
+        <p>Careful making.</p>
+        <p class="accent">Sharp execution.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="section section-work" id="work">
+    <div class="container work-grid">
+      <div class="reveal" data-reveal>
+        <p class="section-eyebrow">Selected work</p>
+        <h2 class="section-title">Real work, added as it takes shape.</h2>
+        <p class="section-lead">A small, honest collection of projects Velvetag has made. No filler, no invented case studies.</p>
+      </div>
+      <article class="work-item reveal" data-reveal data-delay="120">
+        <span class="work-index">01 / ŒUVRE</span>
+        <img class="work-image" src="images/WhatsApp Image 2026-10-08 at 11.37.15 AM.jpeg" alt="Great Supports logo" />
+        <h3>Great Supports</h3>
+        <p>Logo Design</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="reveal" data-reveal>
+        <p class="section-eyebrow light">Let's work</p>
+        <h2 class="contact-title">Together</h2>
+        <p class="contact-lead">Have a project in mind? We'd love to hear from you.</p>
+      </div>
+      <ul class="contact-list">
+        <li class="reveal" data-reveal data-delay="80">
+          <span class="contact-ic">✉</span>
+          <a href="mailto:velvetag.in@gmail.com">velvetag.in@gmail.com</a>
+        </li>
+        <li class="reveal" data-reveal data-delay="160">
+          <span class="contact-ic">◎</span>
+          <a href="https://instagram.com/velvetag" target="_blank" rel="noopener">@velvetag</a>
+        </li>
+        <li class="reveal" data-reveal data-delay="240">
+          <span class="contact-ic">⌖</span>
+          <span>Chennai, India</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="brand footer-brand">
+        <img class="brand-image" src="images/55b9ab339a1141328e7f1bab51a9c937.png" alt="Velvetag" />
+      </div>
+      <p class="footer-tag">Soft ideas &nbsp;·&nbsp; Sharp execution</p>
+      <p class="footer-copy">© <span id="year"></span> Velvetag. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
